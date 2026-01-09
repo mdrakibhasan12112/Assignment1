@@ -9,6 +9,10 @@ box-sizing: border-box;
  font-family: "Inter", sans-serif;
  font-optical-sizing: auto;
 }
+nav{
+  width: 1600px;
+  margin-bottom: 24px;
+}
 
 .navbar{
  width: 1600px;
@@ -17,7 +21,6 @@ box-sizing: border-box;
   justify-content: space-between;
    align-items: center;
    padding: 16px 120px 16px 120px;
-   border: 1px solid red;
    background-color: #FFFFFF;
    margin: 0 auto;
 }
@@ -44,9 +47,79 @@ box-sizing: border-box;
   font-size: 16px;
   font-weight: 600;
 }
+.btn:hover{
+  cursor: pointer;
+}
+
 
 nav .logo{
  width: 139px;
  height: 60px;
 }
+/* hero-section */
+
+.hero{
+ background-image: url(./assets/hero-bg.png);
+width: 1600px;
+height: 674px;
+margin: 0 auto;
+text-align: center;
+background-position: center;
+ display: flex;
+justify-content: center;
+padding: 70px 120px 134px 120px;
+}
+
+.content{
+  width: 1600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content h1{
+  color: white;
+  font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    padding: 16px 156px;
+}
+
+.content .green{
+  color: #30B868;
+}
+
+.content p{
+  font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+/* skill-section */
+
+#skill{
+ margin-top: 120px;
+}
+
+.skill-container{
+ width: 1360px;
+ margin: 0 auto;
+ height: 300px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+}
+
+
 
